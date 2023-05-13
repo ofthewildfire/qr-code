@@ -16,4 +16,54 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background: var(--LightGray);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  max-height: 100vh;
+  align-items: center;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+
+}
+
 /* Card */
+main {
+  background: var(--White);
+  max-width: 300px;
+  width: 80%;
+  padding: 1.5em;
+  border-radius: 10px;
+}
+
+/* Image */
+.image img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.content {
+  margin-top: 2em;
+  padding: 0 2em;
+}
+
+.content h1,
+.content p {
+  margin: .75em 0;
+  line-height: 1.5;
+}
+
+.content h1 {
+  color: var(--DarkBlue);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.content p {
+  color: var(--GrayishBlue);
+  font-size: 1.5rem;
+  margin-bottom: 1.5em;
+}
