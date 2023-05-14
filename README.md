@@ -16,7 +16,8 @@ have done this in less lines, but, it was nice to see how I have improved.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL:
+  [Add solution URL here](https://github.com/ofthewildfire/qr-code.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## Author
