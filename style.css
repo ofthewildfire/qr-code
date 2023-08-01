@@ -27,7 +27,6 @@ body {
   background: var(--LightGray);
   display: flex;
   justify-content: center;
-  max-height: 100vh;
   align-items: center;
   text-align: center;
   font-family: 'Outfit', sans-serif;
