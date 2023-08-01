@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+*::before, *::after {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --White: hsl(0, 0%, 100%);
   --LightGray: hsl(212, 45%, 89%);
@@ -20,11 +27,11 @@ body {
   background: var(--LightGray);
   display: flex;
   justify-content: center;
-  height: 100vh;
   max-height: 100vh;
   align-items: center;
   text-align: center;
   font-family: 'Outfit', sans-serif;
+  margin: 2em auto;
 
 }
 
